@@ -770,3 +770,51 @@ Unable to read VR Path Registry from C:\Users\Sebastian\AppData\Local\openvr\ope
 1519247359438	Marionette	INFO	Listening on port 58063
 1519247359826	Marionette	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1519262281785	geckodriver	INFO	geckodriver 0.19.1
+1519262281797	geckodriver	INFO	Listening on 127.0.0.1:58769
+1519262284995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.PgCOKln3TZSV"
+1519262288374	Marionette	INFO	Enabled via --marionette
+1519262293980	Marionette	INFO	Listening on port 58778
+1519262294106	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown[GFX1-]: Receive IPC close with reaso
+n=AbnormalShutdown
+1519262392721	geckodriver	INFO	geckodriver 0.19.1
+1519262392736	geckodriver	INFO	Listening on 127.0.0.1:58849
+1519262395952	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.4BBE3hxh9zWq"
+1519262398520	Marionette	INFO	Enabled via --marionette
+1519262404190	Marionette	INFO	Listening on port 58857
+1519262404276	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Sebastian\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 18008, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1519262518432	geckodriver	INFO	geckodriver 0.19.1
+1519262518447	geckodriver	INFO	Listening on 127.0.0.1:58912
+1519262521664	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.EDeCffuIV3Rr"
+1519262524096	Marionette	INFO	Enabled via --marionette
+1519262529652	Marionette	INFO	Listening on port 58920
+1519262530494	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1519313059035	geckodriver	INFO	geckodriver 0.19.1
+1519313059066	geckodriver	INFO	Listening on 127.0.0.1:64587
+1519313062582	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.a5WDStMxuhLe"
+1519313066242	Marionette	INFO	Enabled via --marionette
+1519313073774	Marionette	INFO	Listening on port 64596
+1519313074584	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1519313524595	geckodriver	INFO	geckodriver 0.19.1
+1519313524627	geckodriver	INFO	Listening on 127.0.0.1:64672
+1519313527891	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.Ftx0LS3po3KY"
+1519313530034	Marionette	INFO	Enabled via --marionette
+1519313534996	Marionette	INFO	Listening on port 64680
+1519313535710	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1519317378008	geckodriver	INFO	geckodriver 0.19.1
+1519317378040	geckodriver	INFO	Listening on 127.0.0.1:64808
+1519317381241	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.0k6zWGvevmA4"
+1519317383426	Marionette	INFO	Enabled via --marionette
+1519317388586	Marionette	INFO	Listening on port 64816
+1519317389040	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
