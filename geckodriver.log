@@ -901,3 +901,20 @@ son=AbnormalShutdown
 [GFX1-[GFX1-]: Receive IPC close with reason=Abn]or: Receive IPC close with reason=AbnormalShutdown
 [GFXmal1-]: Receive IPC close with reason=AbnormalShutdown
 Shutdown
+1519330881106	geckodriver	INFO	geckodriver 0.19.1
+1519330881137	geckodriver	INFO	Listening on 127.0.0.1:49274
+1519330884401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.HRswzQQdWxI2"
+1519330887046	Marionette	INFO	Enabled via --marionette
+1519330892234	Marionette	INFO	Listening on port 49283
+1519330892584	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Sebastian\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 12580, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1-]: Receive IPC clos[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+e with reason=AbnormalShutdown
+1519330902295	geckodriver	INFO	geckodriver 0.19.1
+1519330902311	geckodriver	INFO	Listening on 127.0.0.1:49363
+1519330905497	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.C518NYn5cDjB"
+1519330907310	Marionette	INFO	Enabled via --marionette
+1519330912400	Marionette	INFO	Listening on port 49371
+1519330913140	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
