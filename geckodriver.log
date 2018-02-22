@@ -818,3 +818,86 @@ Unable to read VR Path Registry from C:\Users\Sebastian\AppData\Local\openvr\ope
 1519317388586	Marionette	INFO	Listening on port 64816
 1519317389040	Marionette	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1519319061004	geckodriver	INFO	geckodriver 0.19.1
+1519319061035	geckodriver	INFO	Listening on 127.0.0.1:64873
+1519319064235	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.rqmNPzhFnfTa"
+1519319066470	Marionette	INFO	Enabled via --marionette
+1519319071392	Marionette	INFO	Listening on port 64881
+1519319071986	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519319074194	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Firefox%20Developer%20Edition/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Firefox%20Developer%20Edition/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+1519319127034	geckodriver	INFO	geckodriver 0.19.1
+1519319127049	geckodriver	INFO	Listening on 127.0.0.1:64933
+1519319130233	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.rOyZjodDOWpE"
+1519319132460	Marionette	INFO	Enabled via --marionette
+1519319137626	Marionette	INFO	Listening on port 64941
+1519319138124	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519319408263	geckodriver	INFO	geckodriver 0.19.1
+1519319408294	geckodriver	INFO	Listening on 127.0.0.1:64992
+1519319411493	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.FOZ1FdCtiq58"
+1519319413806	Marionette	INFO	Enabled via --marionette
+1519319418992	Marionette	INFO	Listening on port 65000
+1519319419506	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC c[GFX1-]:l Receive IPC close with reason=Abnose with reason=AbnormalShutdowno
+rmalShutdown
+1519321211055	geckodriver	INFO	geckodriver 0.19.1
+1519321211086	geckodriver	INFO	Listening on 127.0.0.1:65090
+1519321214249	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.XtI3RRDrBjv9"
+1519321216444	Marionette	INFO	Enabled via --marionette
+1519321221546	Marionette	INFO	Listening on port 65098
+1519321221958	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1519321350990	geckodriver	INFO	geckodriver 0.19.1
+1519321351006	geckodriver	INFO	Listening on 127.0.0.1:65167
+1519321354197	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.fGSkkBME23BI"
+1519321356910	Marionette	INFO	Enabled via --marionette
+1519321361920	Marionette	INFO	Listening on port 65175
+1519321362520	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason[GFX1-]: Recei=ve IPC AbnormalShutdown
+close with reason=AbnormalShutdown
+1519321464540	geckodriver	INFO	geckodriver 0.19.1
+1519321464556	geckodriver	INFO	Listening on 127.0.0.1:65247
+1519321467755	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.OcFCKIzKbEuw"
+1519321470230	Marionette	INFO	Enabled via --marionette
+1519321475316	Marionette	INFO	Listening on port 65255
+1519321475440	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Sebastian\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 2888, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1519321485573	geckodriver	INFO	geckodriver 0.19.1
+1519321485589	geckodriver	INFO	Listening on 127.0.0.1:65323
+1519321488788	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.oHcvHwJy0G72"
+1519321491118	Marionette	INFO	Enabled via --marionette
+1519321496290	Marionette	INFO	Listening on port 65331
+1519321496684	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519321498016	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Firefox%20Developer%20Edition/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Firefox%20Developer%20Edition/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+1519321622778	geckodriver	INFO	geckodriver 0.19.1
+1519321622794	geckodriver	INFO	Listening on 127.0.0.1:65366
+1519321625994	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.b967o1cfWoO8"
+1519321628464	Marionette	INFO	Enabled via --marionette
+1519321633620	Marionette	INFO	Listening on port 65374
+1519321633696	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-][GFX1-: Receive IPC close with rea]: Receive IPC close with reason=AbnormalShutdown
+son=AbnormalShutdown
+1519321643622	geckodriver	INFO	geckodriver 0.19.1
+1519321643638	geckodriver	INFO	Listening on 127.0.0.1:65441
+1519321646824	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.gEnc8krA4Ye8"
+1519321649296	Marionette	INFO	Enabled via --marionette
+1519321654498	Marionette	INFO	Listening on port 65449
+1519321654984	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519321657272	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Firefox%20Developer%20Edition/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Firefox%20Developer%20Edition/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+1519321692801	geckodriver	INFO	geckodriver 0.19.1
+1519321692817	geckodriver	INFO	Listening on 127.0.0.1:65490
+1519321696017	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.jYQVrOHMIIbV"
+1519321698636	Marionette	INFO	Enabled via --marionette
+1519321703634	Marionette	INFO	Listening on port 65498
+1519321703706	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1519321713859	geckodriver	INFO	geckodriver 0.19.1
+1519321713875	geckodriver	INFO	Listening on 127.0.0.1:49182
+1519321717072	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.ST9igQQ9bFXp"
+1519321719478	Marionette	INFO	Enabled via --marionette
+1519321724712	Marionette	INFO	Listening on port 49190
+1519321724818	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-[GFX1-]: Receive IPC close with reason=Abn]or: Receive IPC close with reason=AbnormalShutdown
+[GFXmal1-]: Receive IPC close with reason=AbnormalShutdown
+Shutdown

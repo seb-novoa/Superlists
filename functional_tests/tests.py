@@ -43,8 +43,10 @@ class NewVisitorTest(LiveServerTestCase):
         # "1: Buy peacock feathers" as a item in a to-do lists
         inputbox.send_keys(Keys.ENTER)
 
+        time.sleep(3) ## <---------------
+
         edith_list_url = self.browser.current_url
-        self.assertRegex(edith_list_url, '/list/.+')
+        self.assertRegex(edith_list_url, '/lists/.+')
 
         self.check_for_row_in_list_table('1: Buy peacock feathers')
 
@@ -63,7 +65,7 @@ class NewVisitorTest(LiveServerTestCase):
         ## We use a new browser session to make sure that no information
         ## of Edith´s is coming through from cookies etc#
         self.browser.quit()
-        self.browser.webdriver.Firefox()
+        self.browser = webdriver.Firefox()
 
         ## Francis visits the home page. There is no sign of Edith´s list
         self.browser.get(self.live_server_url)
@@ -74,11 +76,13 @@ class NewVisitorTest(LiveServerTestCase):
         ## Francis starts a new list by entering a new item. He is ledd interesting than Edith
         inputbox = self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('Buy milk')
-        inputbox.send_keys(Keys.Enter)
+        inputbox.send_keys(Keys.ENTER)
 
+        time.sleep(3) ## <---------------
+        
         ## Francis gets his own unique URL
         francis_list_url = self.browser.current_url
-        self.assertRegex(francis_list_url, '/list/.+')
+        self.assertRegex(francis_list_url, '/lists/.+')
         self.assertNotEqual(francis_list_url, edith_list_url)
 
         ## Again, there is no trace of Edith´s list
