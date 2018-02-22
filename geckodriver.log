@@ -918,3 +918,9 @@ e with reason=AbnormalShutdown
 1519330912400	Marionette	INFO	Listening on port 49371
 1519330913140	Marionette	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1519332753343	geckodriver	INFO	geckodriver 0.19.1
+1519332753375	geckodriver	INFO	Listening on 127.0.0.1:49428
+1519332756561	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.4qfrQ8LJDgOU"
+1519332758620	Marionette	INFO	Enabled via --marionette
+1519332763788	Marionette	INFO	Listening on port 49436
+1519332764304	Marionette	WARN	TLS certificate errors will be ignored for this session
