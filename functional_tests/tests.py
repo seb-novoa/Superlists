@@ -43,7 +43,7 @@ class NewVisitorTest(LiveServerTestCase):
         # "1: Buy peacock feathers" as a item in a to-do lists
         inputbox.send_keys(Keys.ENTER)
 
-        time.sleep(3) ## <---------------
+        time.sleep(1) ## <---------------
 
         edith_list_url = self.browser.current_url
         self.assertRegex(edith_list_url, '/lists/.+')
@@ -78,8 +78,8 @@ class NewVisitorTest(LiveServerTestCase):
         inputbox.send_keys('Buy milk')
         inputbox.send_keys(Keys.ENTER)
 
-        time.sleep(3) ## <---------------
-        
+        time.sleep(1) ## <---------------
+
         ## Francis gets his own unique URL
         francis_list_url = self.browser.current_url
         self.assertRegex(francis_list_url, '/lists/.+')
@@ -98,3 +98,25 @@ class NewVisitorTest(LiveServerTestCase):
         # Satisfied, she goes back to sleep
 
         self.fail('Finish the test!')
+
+    def test_layout_and_styling(self):
+        # Edith goes to the home page
+        self.browser.get(self.live_server_url)
+        self.browser.set_window_size(1024,768)
+
+        # She notices the input box in nicely center
+        inputbox = self.browser.find_element_by_id('id_new_item')
+        self.assertAlmostEqual(
+            inputbox.location['x'] + inputbox.size['width'] /2,
+            512,
+            delta=5
+        )
+
+        #She starts a new list ans sees rhw input is nicely centered there too
+        inputbox.send_keys('testing\n')
+        inputbox = self.browser.find_element_by_id('id_new_item')
+        self.assertAlmostEqual(
+            inputbox.location['x'] + inputbox.size['width'] /2,
+            512,
+            delta=5
+        )
