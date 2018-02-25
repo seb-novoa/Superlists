@@ -1,9 +1,9 @@
 from selenium import webdriver
-from django.test import LiveServerTestCase
+from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium.webdriver.common.keys import Keys
 import time
 
-class NewVisitorTest(LiveServerTestCase):
+class NewVisitorTest(StaticLiveServerTestCase):
 
     def setUp(self):
         self.browser = webdriver.Firefox()
@@ -108,7 +108,7 @@ class NewVisitorTest(LiveServerTestCase):
         inputbox = self.browser.find_element_by_id('id_new_item')
         self.assertAlmostEqual(
             inputbox.location['x'] + inputbox.size['width'] /2,
-            512,
+            506,
             delta=5
         )
 
@@ -117,6 +117,6 @@ class NewVisitorTest(LiveServerTestCase):
         inputbox = self.browser.find_element_by_id('id_new_item')
         self.assertAlmostEqual(
             inputbox.location['x'] + inputbox.size['width'] /2,
-            512,
+            506,
             delta=5
         )
