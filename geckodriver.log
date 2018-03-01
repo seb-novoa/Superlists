@@ -2317,3 +2317,26 @@ Unable to read VR Path Registry from C:\Users\Sebastian\AppData\Local\openvr\ope
 1519866094360	Marionette	INFO	Listening on port 63788
 1519866094834	Marionette	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1519919155080	geckodriver	INFO	geckodriver 0.19.1
+1519919155128	geckodriver	INFO	Listening on 127.0.0.1:65289
+1519919158244	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.xVerX0uUKVKC"
+1519919161514	Marionette	INFO	Enabled via --marionette
+1519919168988	Marionette	INFO	Listening on port 65298
+1519919169996	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Sebastian\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6436, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1519919173935	geckodriver	INFO	geckodriver 0.19.1
+1519919173957	geckodriver	INFO	Listening on 127.0.0.1:65357
+1519919177144	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.6mmqtSVtzzLa"
+1519919179168	Marionette	INFO	Enabled via --marionette
+1519919184564	Marionette	INFO	Listening on port 65365
+1519919184674	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519919193654	geckodriver	INFO	geckodriver 0.19.1
+1519919193675	geckodriver	INFO	Listening on 127.0.0.1:65418
+1519919196875	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\SEBAST~1\\AppData\\Local\\Temp\\rust_mozprofile.UJzFR9Ron0yl"
+1519919198970	Marionette	INFO	Enabled via --marionette
+1519919204230	Marionette	INFO	Listening on port 65426
+1519919204390	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Sebastian\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 13052, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
