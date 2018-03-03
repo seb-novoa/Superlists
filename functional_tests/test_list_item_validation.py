@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 class ItemValidationTest(FunctionalTest):
-    @skip
+    
     def test_cannot_add_empty_list_items(self):
         # Edith goes to the home page ans accidentally tries to submit an empty list item. She hits ENTER on the empty input box
         self.browser.get(self.server_url)
