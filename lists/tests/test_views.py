@@ -29,7 +29,7 @@ class ListViewTest(TestCase):
             data={'text':''}
         )
 
-    def test_used_list_template(self):
+    def test_uses_list_template(self):
         list_ = List.objects.create()
         response = self.client.get('/lists/%d/' %(list_.id,))
         self.assertTemplateUsed(response, 'list.html')
