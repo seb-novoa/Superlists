@@ -10,6 +10,16 @@
 
     <div class="container">
 
+      <div class="navbar">
+        {% if user.email %}
+          <p>logged in as {{ user.mail }}</p>
+          <p><a href="{% url 'logout' %}" id="logout"> Sign out </a></p>
+        {% else %}
+          <a href="#" id="login"> Sign in </a>
+        {% endif %}
+        <p>User: {{ user }}</p>
+      </div>
+
       <div class="row">
         <div class="col-md-6 offset-md-3 jumbotron">
           <div class="text-center">
@@ -39,5 +49,9 @@
       </div>
 
     </div>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="/static/list.js"></script>
+    <script src="https://login.persona.org/include.js"></script>
+    <script src="/static/login.js"></script>
   </body>
 </html>
